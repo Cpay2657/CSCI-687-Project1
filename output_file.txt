@@ -1,0 +1,38 @@
+
+Command History:
+------------------
+Inserting (DNA, AGG) at 2.
+Inserting (DNA, AGGC) at 3.
+Inserting (RNA, ACCU) at 5.
+Printing Sequence Array
+Removing 1 from Sequence Array
+NOTE: Sequence Array is empty at [1]. Nothing was removed.
+Removing 2 from Sequence Array
+Printing Sequence Array
+Inserting (DNA, AGCGGCG) at 16.
+Inserting (RNA, AAA) at 15.
+Printing sequence at position 2
+NOTE: Sequence Array is empty at [2].
+Printing sequence at position 15
+Copying 15 to 2
+Copying 17 to 15
+NOTE: Sequence Array is empty at [17]. No change was made at [15].
+Printing sequence at position 2
+Printing sequence at position 15
+Swapping 16 starting at 3 with 15 starting at 4
+ERROR: 16 or 15 are not valid inputs.
+Printing sequence at position 15
+Printing sequence at position 16
+Transcribing 5
+ERROR: [5] is not DNA. Transcription only works on DNA.
+Transcribing 3
+Printing Sequence Array
+
+Final Sequence Array (empty positions are not shown):
+-------------------------------------------------------
+[2] ('RNA', 'AAA')
+[3] ('RNA', 'GCCU')
+[5] ('RNA', 'ACCU')
+[15] ('RNA', 'AAA')
+[16] ('DNA', 'AGCGGCG')
+Length of Sequence Array: 20
